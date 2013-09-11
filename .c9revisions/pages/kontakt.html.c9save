@@ -1,2 +1,3 @@
 {"ts":1378569593252,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
 {"contributors":[],"silentsave":false,"ts":1378569597522,"patch":[[{"diffs":[[1,"Test"]],"start1":0,"start2":0,"length1":0,"length2":4}]],"length":4,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1378580595118,"patch":[[{"diffs":[[-1,"Test"],[1,"<!doctype html>\n<html lang \"sv\">\n    <head>\n    <meta charset\n    </head>\n    \n    <body>\n        \n    </body>\n    \n</html>"]],"start1":0,"start2":0,"length1":4,"length2":123}]],"length":123,"saved":false}
