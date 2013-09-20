@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <polygon id="svg_19" fill="#ffff00"/>
+  <polygon id="svg_41" fill="#ffff00"/>
+  <ellipse fill="#ffffff" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="411.66667" cy="129.16667" id="svg_42" rx="79.66667" ry="45.16667"/>
+  <polygon id="svg_2" fill="#ff00ff" points="495,212 495,212 495,212 495,212 495,212 495,212 " stroke="#000000" stroke-width="5"/>
+  <polygon id="svg_4" fill="#ff00ff" points="348,310 348,310 348,310 348,310 348,310 348,310 " stroke="#000000" stroke-width="5"/>
+  <polygon id="svg_5" fill="#ff00ff"/>
+  <polygon id="svg_6" fill="#ff00ff"/>
+  <polygon id="svg_7" fill="#ff00ff"/>
+  <polygon id="svg_8" fill="#ff00ff"/>
+  <polygon id="svg_9" fill="#ff00ff"/>
+  <polygon id="svg_12" fill="#FF0000"/>
+  <text fill="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="205" y="222" id="svg_14" font-size="5" font-family="serif" text-anchor="middle" xml:space="preserve" stroke="#000000" transform="matrix(7.13253 0 0 3.5169 -1251.17 -532.043)" font-weight="normal" font-style="italic">Tommy</text>
+  <ellipse fill="#ffffff" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="344" cy="241" id="svg_16" rx="6" ry="7" stroke="#000000"/>
+  <text fill="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="280" y="118" id="svg_20" font-size="5" font-family="serif" text-anchor="middle" xml:space="preserve"/>
+  <text transform="matrix(1.69643 0 0 0.961538 -336.589 -42.0769)" stroke="#000000" font-weight="bold" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_1" y="305" x="395" stroke-width="0" fill="#000000">hatar</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_3" y="273" x="541" stroke-width="0" stroke="#000000" fill="#000000"/>
+  <text fill="#000000" stroke-width="0" x="469.179487" y="251" id="svg_10" font-size="24" font-family="serif" text-anchor="middle" xml:space="preserve" stroke="#000000" transform="matrix(2.4375 0 0 1 -698.625 0)">svg</text>
+  <path fill="#7f0000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m309.621521,343.699615c26.718384,-26.371552 34.005219,33.513824 34.005219,33.513824c0,0 88.251648,8.790497 46.959595,-16.482208c-41.292053,-25.272736 0.809662,-36.260864 0.809662,-36.260864c0,0 -53.436768,17.031616 -47.769257,13.735168c5.667542,-3.296448 -26.718384,-41.205536 -26.718384,-41.205536c0,0 0,12.086945 0,12.086945c0,0 -100.396347,-14.833984 -31.576263,0" id="svg_13" stroke="#000000"/>
+ </g>
+</svg>
