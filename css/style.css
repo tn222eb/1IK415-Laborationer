@@ -66,7 +66,6 @@ table {
         width: 960px;
         height: 131px;
         border-bottom: 1px solid black;
-    
         }
     
 
@@ -109,21 +108,22 @@ table {
     border-left: 1px solid black; 
     margin-left: 200px;
     width: 759px;
-    height: 1100px;
+    height: auto;
     background-color: #6C8CD5;
-
+    border-bottom: 0.5px solid black;
     
 }
 
 #footer 
 {
-    border-top: 1px solid black;
+    border-top: 0.5px solid black;
     width: 960px;
     background-color: brown;
     height: 40px;
     font-family: "Monospace";
     color: white;
     text-align: center;
+
 }
 
 
@@ -166,6 +166,14 @@ h3.helloworld
     text-indent: 35px;
 }
 
+h3.blogg
+{
+    background-image: url(pics/blogg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    text-indent: 25px;
+}
+
 h3.videotaggen
 {
     background-image: url(pics/videobild.png);
@@ -174,14 +182,22 @@ h3.videotaggen
     text-indent: 25px;
 }
 
-h1.logo
+.logo
 {
      background-image: url(pics/logo.png);
      background-repeat: no-repeat;
+     background-position: top center;
+     background-size: 960px;
      height: 131px;
-     background-size:960px;
-     
-   
+    
+}
+
+
+#river 
+{
+ float: right;
+ border: 1px solid black;
+ margin-right: 4px;
 }
 
 h4 
@@ -200,6 +216,10 @@ font-weight: bold;
 .helloworld
 {border-bottom: 1px solid #000;}
 
+.blogg
+{border-bottom: 1px solid #000;}
+
+.kursiv4 { font-style:italic }
 .kursiv3 { font-style:italic }
 .kursiv2 { font-style:italic }
 .kursiv1 { font-style:italic }
@@ -225,6 +245,7 @@ dd
      text-decoration: none;
      background-color: #00675C;
      color: white;
+     
      }
 
 #content dd a:hover
