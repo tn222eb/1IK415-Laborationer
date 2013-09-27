@@ -4,24 +4,31 @@
         <meta charset="utf-8" />
         <title>Kontakt information</title>
        
+        <link rel="stylesheet" href="../css/style.css" />
         
     </head>
-    <body>
-    <h1>Kontakt</h1>
+    <body class="background4">
     
+    <div id="wrapper">
+    <div id="header">
+    <h1 class ="logo3"></h1>
+    </div>
+    
+    
+    <div id="navigation"> 
         <ul>
         <li><a href="../index.html">Start</a></li>
         <li><a href="laborationer.html">Laborationer</a></li>
         <li><a href="presentation.html">Presentation</a></li>
-        <li><a href="kontakt.html">Kontakt</a></li>
+        <li class="active"><a href="kontakt.html">Kontakt</a></li>
         </ul>
-      
-    
+       </div>
+       
+       
+    <div id="content">
     <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
     <fieldset>
-    
         <legend>Fråga</legend>
-        
         <label>Ärendetyp</label>
          <select name ="Ärendetyp">
          <option value="Hjälp" selected>Hjälp </option> 
@@ -38,8 +45,11 @@
          <label>Fråga:</label>
          <textarea name ="Fråga" rows="2" cols="30"></textarea>
              
+             
         
     </fieldset>
+    
+    
         
         <fieldset>
         <legend>Kontakta mig</legend>
@@ -54,7 +64,22 @@
         
         <button type="submit">Skicka</button>
         
+        
+    
     </form>
+    
+
+        </div>
+
+
+    <div id="footer">
+        <p>Ansvarig för material på denna sidan är Tommy Nguyen.</p>
+    </div>
+        
+        
+
+    
+    </div>
     
     </body>
     

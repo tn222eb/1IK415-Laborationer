@@ -50,13 +50,69 @@ table {
 
 /* Layout */
 
+body.background1
+{
+background-image:url(pics/download.jpg);
+background-attachment:fixed;
+}
+
+body.background2
+{
+background-image:url(pics/download2.jpg);
+background-attachment:fixed;
+}
+
+body.background3
+{
+background-image:url(pics/download3.jpg);
+background-attachment:fixed;
+}
+
+body.background4
+{
+background-image:url(pics/download4.jpg);
+background-attachment:fixed;
+}
+
+fieldset
+{
+    border: 1px solid black;
+    margin: 0 10px 10px 10px;
+    padding: 5px;
+}
+
+
+table
+{
+    margin-left: 2px;
+}
+
+td 
+{ border: 1px solid black;
+}
+
+th
+{ 
+    border: 1px solid black;}
+
+#lab1
+{
+    border-bottom: 1px solid #000;
+        margin-top: 15px;
+}
+
+#lab2
+{
+    border-bottom: 1px solid #000;
+    margin-top: 15px;    
+}
 
 #wrapper 
     {
     border: 1px solid black;
     max-width: 960px;
     margin: 0 auto;
-   
+    background-color: purple;
     
     }
     
@@ -66,8 +122,21 @@ table {
         width: 960px;
         height: 131px;
         border-bottom: 1px solid black;
+        background-color: white;
         }
     
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover
+{
+    color: white;
+}
+
 
 #navigation 
     {
@@ -75,9 +144,12 @@ table {
     float: left;
     background-color: white;
     width: 200px;
-    border-bottom: none;
     }
-    
+#navigation li h2
+{
+    background-color: gray;
+    border-bottom: 1px solid black;
+}
 
  #navigation li a
  {
@@ -89,6 +161,7 @@ table {
      font-weight: bold;
      display: block;
      padding: 10px;
+     
  }
  
  #navigation a:hover 
@@ -110,7 +183,19 @@ table {
     width: 759px;
     height: auto;
     background-color: #6C8CD5;
-    border-bottom: 0.5px solid black;
+    border-bottom: 1px solid black;
+    
+}
+
+#contentl
+{ 
+    font-family: "Arial", Verdana;
+    border-left: 1px solid black; 
+    margin-left: 200px;
+    width: 760px;
+    height: auto;
+    background-color: #473057;
+    border-bottom: 1px solid black;
     
 }
 
@@ -123,8 +208,12 @@ table {
     font-family: "Monospace";
     color: white;
     text-align: center;
+    border-top: 1px solid black;
 
 }
+
+
+
 
 
 /* Text */
@@ -172,6 +261,7 @@ h3.blogg
     background-repeat: no-repeat;
     background-position: top left;
     text-indent: 25px;
+    background-color:#6C8CD5;
 }
 
 h3.videotaggen
@@ -181,6 +271,14 @@ h3.videotaggen
     background-position: top left;
     text-indent: 25px;
 }
+
+h3.undermig
+{border-bottom: 1px solid #000;}
+
+
+h3.info
+{border-bottom: 1px solid #000;}
+
 
 .logo
 {
@@ -192,6 +290,26 @@ h3.videotaggen
     
 }
 
+
+.logo2
+{
+     background-image: url(pics/logo2.png);
+     background-repeat: no-repeat;
+     background-position: top center;
+     background-size: 960px;
+     height: 131px;
+    
+}
+
+.logo3
+{
+     background-image: url(pics/logo3.png);
+     background-repeat: no-repeat;
+     background-position: top center;
+     background-size: 960px;
+     height: 131px;
+    
+}
 
 #river 
 {
@@ -219,6 +337,15 @@ font-weight: bold;
 .blogg
 {border-bottom: 1px solid #000;}
 
+.webbteknisk
+{border-bottom: 1px solid #000;}
+
+.resultat
+{
+    margin-top: 15px;
+}
+
+
 .kursiv4 { font-style:italic }
 .kursiv3 { font-style:italic }
 .kursiv2 { font-style:italic }
@@ -237,22 +364,10 @@ dd
     margin-bottom:15px;
 }
 
-#content dd a 
-    {
-    border: 0.5px solid black;
-    display: box;
-    padding: 1px;
-     text-decoration: none;
-     background-color: #00675C;
-     color: white;
-     
-     }
-
-#content dd a:hover
- {
- background-color: #F5FD72;    
-
- }
-
+dl dt
+{
+    font-weight: bold;
+    margin-bottom:15px;
+}
 
    
