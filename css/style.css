@@ -50,29 +50,58 @@ table {
 
 /* Layout */
 
-body.background1
+.background1
 {
 background-image:url(pics/download.jpg);
 background-attachment:fixed;
 }
 
-body.background2
+.background2
 {
 background-image:url(pics/download2.jpg);
 background-attachment:fixed;
 }
 
-body.background3
+.background3
 {
 background-image:url(pics/download3.jpg);
 background-attachment:fixed;
 }
 
-body.background4
+.background4
 {
 background-image:url(pics/download4.jpg);
 background-attachment:fixed;
 }
+
+#textarea 
+{
+    height: 100px;
+    
+}
+
+#content form textarea, #title, select
+{
+    width: 300px;
+    margin-bottom: 20px;
+    resize: vertical;
+}
+
+#content form 
+{
+    width: 500px;
+}
+
+#content form label 
+{
+    width: 140px;
+    text-align: right;
+    display: block;
+    float: left;
+    padding-right:10px;
+    clear: left;
+}
+
 
 fieldset
 {
@@ -90,6 +119,7 @@ table
 td 
 { border: 1px solid black;
 }
+
 
 th
 { 
@@ -187,12 +217,13 @@ a:hover
     
 }
 
+
 #contentl
 { 
     font-family: "Arial", Verdana;
     border-left: 1px solid black; 
     margin-left: 200px;
-    width: 760px;
+    width: 759px;
     height: auto;
     background-color: #473057;
     border-bottom: 1px solid black;
@@ -201,7 +232,7 @@ a:hover
 
 #footer 
 {
-    border-top: 0.5px solid black;
+  
     width: 960px;
     background-color: brown;
     height: 40px;
@@ -272,11 +303,11 @@ h3.videotaggen
     text-indent: 25px;
 }
 
-h3.undermig
+.undermig
 {border-bottom: 1px solid #000;}
 
 
-h3.info
+.info
 {border-bottom: 1px solid #000;}
 
 

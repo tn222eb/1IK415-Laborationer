@@ -1,0 +1,52 @@
+/* Dölj innehåll vid utskrift */
+
+#wrapper
+{
+    height: 100%;
+    border:none;
+}
+
+#header, #navigation, #footer
+{
+    
+    display:none;
+}
+    
+#navigation li a ul
+{
+    display:none;
+}
+    
+#content 
+{
+    width: 100%; margin: 0; float: none; 
+    border: none;
+}
+
+#svgbild
+{
+    display:none;
+}
+
+video
+{
+    display:none;
+}
+
+videotaggen
+{
+ display:none;   
+}
+
+#river 
+{
+    border:none;
+}
+
+
+@media print{
+#content a:after
+{
+content: "(" attr(href) ")";
+}
+}
