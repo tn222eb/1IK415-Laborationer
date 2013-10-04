@@ -1,5 +1,6 @@
 /* Layout */
 
+
 #container
 {
 	width: 960px;
@@ -35,6 +36,7 @@
 
 #menu ul
 {
+ 
 	list-style: none;
 	font-weight: normal;
 	text-align: center;
@@ -49,12 +51,15 @@
 
 #menu ul li
 {
+    
     float: left;
 }
 
 
 #menu ul li a
 {
+    
+    width: 100px;
 	display: block;
 	font-family: Verdana;
 	text-decoration: none;
@@ -65,9 +70,71 @@
 	text-transform: capitalize;
 	background-color: #797066;
 	padding-top: 9px;
-	padding-right: 15px;
+	padding-right: 25px;
 	padding-bottom: 9px;
-	padding-left: 15px;
+	padding-left: 25px;
+}
+
+#home-icon
+{
+    background-image: url(pics/sprite.png);
+	background-repeat: no-repeat;
+	background-position: 10px -43px;
+}
+
+#home-icon:hover
+{
+    background-image: url(pics/sprite.png);
+	background-repeat: no-repeat;
+	background-position: 10px 5px;
+}
+
+#lab-icon
+{
+    	background-image: url(pics/sprite.png);
+	background-repeat: no-repeat;
+	background-position: 4px -138px;
+}
+
+#lab-icon:hover
+{
+    	background-image: url(pics/sprite.png);
+	background-repeat: no-repeat;
+	background-position: 4px -90px;
+}
+
+#presentation-icon
+{
+    	background-image: url(pics/sprite.png);
+	background-repeat: no-repeat;
+	background-position: 4px -234px;
+}
+
+#presentation-icon:hover
+{
+    	background-image: url(pics/sprite.png);
+	background-repeat: no-repeat;
+	background-position: 4px -186px;
+}
+
+#kontakt-icon
+{
+    	background-image: url(pics/sprite.png);
+	background-repeat: no-repeat;
+	background-position: 9px -330px;
+}
+
+#kontakt-icon:hover
+{
+      	background-image: url(pics/sprite.png);
+	background-repeat: no-repeat;
+	background-position: 9px -282px;
+}
+
+#menu .active
+{
+   background-color: #eae7d2;
+   color:#888076;
 }
 
 #menu ul li a:hover
@@ -76,15 +143,13 @@
 	background-color: #9c9084;
 }
 
-#menu .active a
-{
-    color: #888076;
-    background: #eae7d2;
-}
+
+
 
 
 #content ul
 {
+    
     list-style: none;
 }
 
@@ -172,7 +237,6 @@ a:visited
 
 fieldset
 {
-    
     margin: 0 10px 10px 10px;
 }
  
@@ -183,13 +247,16 @@ table
 }
 
 td 
-{ border: 1px solid black;
+{
+    border: 1px solid black;
 }
 
 
 th
 { 
-    border: 1px solid black;}
+    border: 1px solid black;
+}
+
 
 
 

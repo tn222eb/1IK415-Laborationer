@@ -1,12 +1,6 @@
 /* Dölj innehåll vid utskrift */
 
-#wrapper
-{
-    height: 100%;
-    border:none;
-}
-
-#header, #navigation, #footer
+#top, #menu, #bottom
 {
     
     display:none;
@@ -16,12 +10,17 @@
 {
     display:none;
 }
-    
-#content 
+
+li
 {
-    width: 100%; margin: 0; float: none; 
-    border: none;
+    list-style:none;
 }
+
+#bild
+{
+    display:none;
+}
+
 
 #svgbild
 {
@@ -38,11 +37,69 @@ videotaggen
  display:none;   
 }
 
-#river 
+h2
 {
-    border:none;
+border-bottom: none;
 }
 
+#Flod
+{
+    display:none;
+}
+
+#Lejonunge
+{
+    display:none;
+}
+
+
+#Copycat
+{
+    display:none;
+}
+
+
+/* Visa vid utskrift */
+    
+#content 
+{
+    width: 100%; margin: 0; float: none; 
+    
+}
+
+a:link
+{
+    text-decoration:none;
+    color: #797066;
+}
+
+a:visited
+{
+    color: #797066;
+}
+
+ a:hover 
+ {
+ color: black;
+ }
+ 
+table
+{
+    margin-left: 2px;
+}
+
+td 
+{
+    border: 1px solid black;
+}
+
+
+th
+{ 
+    border: 1px solid black;
+}
+
+/* Annat */
 
 @media print{
 #content a:after

@@ -4,8 +4,8 @@
         <meta charset="utf-8" />
         <title>Laborationer</title>
        
-       <link rel="stylesheet" href="../css/basic.css" />
-      
+       <link rel="stylesheet" href="../css/basic.css" media ="screen"/>
+       <link href="../css/print.css" rel="stylesheet" type="text/css" media="print">
         
     </head>
     <body>
@@ -14,13 +14,14 @@
     
      <div id="menu">
         <ul>
-        <li>                           <a href="../index.html">start</a></li>
-        <li class="active"> <a href="laborationer.html">laborationer</a></li>
-        <li>                <a href="presentation.html">presentation</a></li>
-        <li>                          <a href="kontakt.html">Kontakt</a></li>
+        <li>                           <a id="home-icon" href="../index.html">start</a></li>
+        <li> <a id="lab-icon" href="laborationer.html" class="active">laborationer</a></li>
+        <li>                <a id="presentation-icon" href="presentation.html">presentation</a></li>
+        <li>                          <a id="kontakt-icon" href="kontakt.html">Kontakt</a></li>
         </ul>
     </div>
         
+
         
 
     
@@ -35,7 +36,7 @@
 
 
 
-<h3 class ="webbteknisk">Webbteknisk Introduktion</h3>
+<h3>Webbteknisk Introduktion</h3>
 <ul>
  <li><a href="#lab1">Laboration 1</a></li>
  <li><a href="#lab2">Laboration 2</a></li>
@@ -44,7 +45,7 @@
 
 
 
-<h3 class ="resultat">Resultat</h3>
+<h3 id="tabell">Resultat</h3>
 <table>
     <thead>
         <tr>
@@ -134,6 +135,7 @@
 <ol>
     <li><a href="presentation.html">Ett första dokument</a></li>
     <li><a href="presentation.html#bild">Bild</a></li>
+    <li><a href="laborationer.html#tabell">Tabell</a></li>
 </ol>
 
 <h3 id="lab2">Laboration 2</h3>
