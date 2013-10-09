@@ -1,0 +1,106 @@
+#content    		{
+max-width: 100% ;
+margin-top: 102px;
+overflow: hidden;
+					 }
+
+#container 			
+{
+max-width: 100%;
+height: auto; 
+}
+
+#menu
+{
+    margin-top: 10px;
+    max-width: 100%;
+}
+
+#menu ul li a
+{
+
+}
+
+#menu ul
+{
+
+    max-width:100%;
+    
+}
+
+#menu li
+{
+    
+    max-width: 200px;
+}
+
+#top			
+{
+max-width: 100%;
+}
+
+#bottom
+{
+    height: auto;
+max-width: 100%;
+}
+					
+					
+					
+/* Media */
+
+#Flod { max-width: 100%;}
+Video { max-width: 100%; }
+#Copycat { max-width: 100%; }
+#Lejonunge {max-width: 100%; }
+
+
+
+
+.labb_table 
+{    
+    border: none;    
+    width: 100%;    
+    padding: none;
+    margin: none;    
+}
+
+.labb_table td, .labb_table th
+{        
+    padding: none;       
+}
+
+@media screen and (orientation:landscape)
+{
+    .left
+    {
+        float: left;
+    }
+    
+    .right
+    {
+        float: right;
+    }
+    
+    #cform label
+    {
+        width: 120px;
+        text-align: right;
+    }
+    
+    #cform input
+    {                       
+        width: 250px; 
+    }  
+    
+    #cform textarea
+    {
+        margin-left: 140px;
+    }
+    
+    #cform #button
+    {
+        width: 255px;
+        margin-left: 140px;
+    }
+    }
