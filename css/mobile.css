@@ -50,7 +50,8 @@ max-width: 100%;
 	text-align: left;}				
 					
 /* Media */
-
+#QR { max-width: 100%;}
+#Mobil { max-width: 100%;}
 #Flod { max-width: 100%;}
 Video { max-width: 100%; }
 #Copycat { max-width: 100%; }
