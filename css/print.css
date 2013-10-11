@@ -1,6 +1,6 @@
 /* Dölj innehåll vid utskrift */
 
-#top, #menu, #bottom
+#top, #navigation, #bottom
 {
     
     display:none;

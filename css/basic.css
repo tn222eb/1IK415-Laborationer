@@ -27,14 +27,14 @@
 	font-style: italic;
 }
 
-#menu
+#navigation
 {
     padding: 0px;
     display: inline-block;
     height: 35px;
 }
 
-#menu ul
+#navigation ul
 {
  
 	list-style: none;
@@ -49,14 +49,14 @@
 	margin-left: -30px;
 }
 
-#menu ul li
+#navigation ul li
 {
     
     float: left;
 }
 
 
-#menu ul li a
+#navigation ul li a
 {
     
     width: 100px;
@@ -131,13 +131,13 @@
 	background-position: 9px -282px;
 }
 
-#menu .active
+#navigation .active
 {
    background-color: #eae7d2;
    color:#888076;
 }
 
-#menu ul li a:hover
+#navigation ul li a:hover
 {
 	color: #eae7d2;
 	background-color: #9c9084;
@@ -234,6 +234,10 @@ a:visited
     clear: left;
 }
 
+#email
+{
+    margin-bottom: 10px;
+}
 
 fieldset
 {

@@ -7,8 +7,10 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../css/basic.css" media ="screen" />
          <link href="../css/print.css" rel="stylesheet" type="text/css" media="print">
-        <link rel="stylesheet" media="screen and (min-width:481px)" href="css/mobile.css" />
+    <link rel="stylesheet" media="screen and (max-width:480px)" href="../css/mobile.css" />
       <link rel="shortcut icon" href="../css/pics/favicon.png" type="image/png" />
+      <link rel="apple-touch-icon" sizes="117x144" href="css/pics/favicon-touch.png">
+      
         
     </head>
     <body>
@@ -16,7 +18,7 @@
     <div id="container">
     <div id="top">Tommy Nguyen</div>
     
-       <div id="menu">
+       <div id="navigation">
        <ul>
         <li>  <a id="home-icon" href="../index.html">start</a></li>
         <li>  <a id="lab-icon" href="laborationer.html">laborationer</a></li>
@@ -34,13 +36,11 @@
          <option value="Hjälp" selected>Hjälp </option> 
          <option value="Annat" >Annat </option> 
          </select>
-         
-        <br/>
-     
+
         <label for="title">Rubrik:</label>
         <input type="text" name ="Rubrik" id="title">
              
-         <br/>
+
          
          <label>Fråga:</label>
          <textarea name ="Fråga" rows="2" cols="38"></textarea>
@@ -50,15 +50,27 @@
      </fieldset>
     
     
+        <fieldset>
+            <legend>Information om dig</legend>
+            <form action="http://homepage/www.server.se/pages/kontakt.html" method="post">
+            <label class="email">E-post:</label>
+            <input id="email" type="email" name="email" />
+            <br/>
+            <label class="number">Mobil:</label>
+            <input id="number" type="number" name="number" />
+            <br/>
+            </fieldset>
+        
+        
         
         <fieldset>
         <legend>Kontakta mig</legend>
         
        
-        Kontaka mig via mail<input type="checkbox" name="epost" value="tn222eb@student.lnu.se"/>
-        <br/>
-        Kontaka mig via telefon<input type="checkbox" name="nummer" value="072008470"/>
-        <br/>
+        Kontaka mig via E-post<input type="checkbox" name="epost" value="tn222eb@student.lnu.se"/>
+     <br/>
+        Kontaka mig via Telefon<input type="checkbox" name="nummer" value="072008470"/>
+       <br/>
         <button type="submit">Skicka</button>
         
         </fieldset>
