@@ -2,11 +2,10 @@
 <html lang="sv">
     <head>
         <meta charset="utf-8" />
-       
         <title>Start</title>
 
- <meta name="viewport" content="width=device-width, initial-scale=1">
-       <link rel="stylesheet" href="css/basic.css" media="screen"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/basic.css" media="screen"/>
       <link href="css/print.css" rel="stylesheet" type="text/css" media="print">
       <link rel="stylesheet" media="screen and (max-width:480px)" href="css/mobile.css" />
       <link rel="shortcut icon" href="css/pics/favicon.png" type="image/png" />
@@ -15,41 +14,65 @@
     <body>
 
 	<div id="container">
-		<div id="top">	
-			Tommy Nguyen
-		</div>
 	
-    <div id="navigation">
+	<!-- Header -->
+	<header>Tommy Nguyen</header>	
+			
+		
+	<!-- Nav -->
+    <nav>
         <ul>
         <li> <a id="home-icon" href="index.html" class="active">start</a></li>
         <li>                <a id="lab-icon" href="pages/laborationer.html">laborationer</a></li>
         <li>                <a id="presentation-icon" href="pages/presentation.html">presentation</a></li>
         <li>                <a id="kontakt-icon" href="pages/kontakt.html">kontakt</a></li>
         </ul>
-    </div>
+    </nav>
 
-
-    <div id="content">
+    <!-- Main -->
+    <main>
+    <!-- Main-Header -->
     <h1>Kursblogg</h1>
-    
-    
-   <h2>Mobila Enheter</h2>
-    <p>Hur jag tänkte då jag gjorde om designen så den passade in till mobilen var att jag var tvungen att göra så 
+
+    <article>
+    <h2>Mobila Enheter</h2>
+    <p>
+    Hur jag tänkte då jag gjorde om designen så den passade in till mobilen var att jag var tvungen att göra så 
     navigationen ändrades från att vara en horisontell till en vertikal samt att göra så bilder och så vidare blev mindre då fönstret blev mindre.
     Först då jag såg laboration 4 så tänkte jag detta kommer inte va svårt men när jag väl höll på med de så fick jag se hur fel jag hade. Nu när jag väl är klar så kan jag dela med mig av denna bilden 
-    på hur det ser ut på mobil enhet.</p>
+    på hur det ser ut på mobil enhet.
+    </p>
     
-    <img id="Mobil" src="pics/Mobil.png" alt="Mobil" height="550" width="400">
+    <img id="Mobil" src="pics/Mobil.png" alt="Mobil" height="300" width="190">
+    
+        <div class="commentary">
+    <h4>Kommentarer:</h4>
+    <p>
+    Nu så kan man usa min sida till mobila enheter.
+    </p> 
+    </div>
     
     
-    <p>Skrivet av Tommy, 2013-10-11</p>
+    <footer>Skrivet av Tommy, 2013-10-11</footer>
+    </article>
     
+    
+    <article>
     <h2>QR-Bild</h2>
-    <img id="QR" src="http://qrfree.kaywa.com/?l=1&s=8&d=https%3A%2F%2Fc9.io%2Ftn222eb%2F1ik415-laborationer%2Fworkspace%2Findex.html" alt="QRCode"/>
-    
-    <p>Skrivet av Tommy, 2013-10-11</p>
+    <img id="QR" src="http://qrfree.kaywa.com/?l=1&amp;s=8&amp;d=https%3A%2F%2Fc9.io%2Ftn222eb%2F1ik415-laborationer%2Fworkspace%2Findex.html" alt="QRCode"/>
     
     
+    <div class="commentary">
+    <h4>Kommentarer:</h4>
+    <p>
+    Coolt sätt att använda en bild för att nå sida som Martin använde för att nå min sida.
+    </p> 
+    </div>
+     <footer>Skrivet av Tommy, 2013-10-11</footer>
+    </article>
+    
+    
+    <article>
     <h2>Copycat</h2>
     <p>Har precis gjort klart uppgiften Copycat på Laboration 3.</p>
     
@@ -57,22 +80,31 @@
     
     <br/>
     <a href="https://c9.io/tn222eb/uppgift-3-3/workspace/index.html">Klicka här för att komma till sidan</a>
+
+    <div class="commentary">
+    <h4>Kommentarer:</h4>
+    <p>
+    Copycat!
+    </p> 
+    </div>
+
+
+
+    <footer>Skrivet av Tommy, 2013-10-01</footer>
+    </article>
     
-    <p>Skrivet av Tommy, 2013-10-01</p>
-    
-    
+    <article>
     <h2>Lorem isum!</h2>
     <img id="Flod" src="pics/yangtze.jpg" alt="Flod" height="350" width="200">
 
     <p>
-
 Vestibulum a sagittis nisi. Nulla vehicula dolor et odio tempor varius. 
 Maecenas augue nisl, pulvinar id sollicitudin non, feugiat et sapien.
 Suspendisse sed lectus vel nulla vehicula vehicula. Vivamus porttitor magna sed interdum hendrerit.
 Maecenas nec urna tincidunt, elementum felis sit amet, viverra arcu. Nulla eu pretium sapien. 
 Ut convallis, diam vel consequat molestie, turpis ante faucibus est, eget porttitor nisi augue non arcu.
     </p>
-     <p>
+<p>
 Congue consequat odio eu auctor. Fusce consequat quam mauris, sed vehicula tellus lobortis eget. 
 Quisque ultricies posuere tempor. Nulla enim erat, scelerisque vel ornare nec, placerat et metus. 
 Duis sed vestibulum eros. Suspendisse rutrum tincidunt augue, ac iaculis nibh lacinia a. Nulla facilisi. 
@@ -81,7 +113,7 @@ Mauris feugiat rutrum tempus. Duis sed facilisis ipsum.
 Quisque purus purus, fringilla eget laoreet vel, suscipit vitae erat. 
 Donec laoreet urna ac porta iaculis. Ut lobortis tortor ac ipsum dictum, non posuere ante pulvinar. 
 Sed tristique elit a justo feugiat, volutpat condimentum dui hendrerit. Curabitur non odio tristique, cursus velit at, tempor ipsum.
-    </p>
+</p>
      <p>
 Pellentesque tincidunt, massa a volutpat bibendum, odio risus egestas arcu, vel lobortis eros sem in lectus.
 In quis nunc ullamcorper, cursus felis quis, placerat nisi. Nulla mi eros, fringilla non malesuada vitae, accumsan at leo. 
@@ -90,8 +122,19 @@ Nunc malesuada fermentum magna, quis placerat nisi iaculis id. Pellentesque luct
 Nunc congue lacinia est, a malesuada tortor volutpat.
     </p>
     
-    <p>Skrivet av Tommy, 2013-09-25</p>
+        <div class="commentary">
+    <h4>Kommentarer:</h4>
+    <p>
+    Laboration 2 klar!
+    </p> 
+    </div>
     
+    
+    <footer>Skrivet av Tommy, 2013-09-25</footer>
+  </article>
+  
+  
+    <article>
     <h2>Video</h2>
         <video width="500" height ="300" controls poster="pics/bunny.png">
         <source src="videos/bunny.ogg" type="video/ogg">
@@ -99,29 +142,58 @@ Nunc congue lacinia est, a malesuada tortor volutpat.
     
     <p>Stort tack till <a href="http://www.bigbuckbunny.org">Big Buck Bunny</a> för bruk av deras video-trailer.</p>
     
-    <p>Skrivet av Tommy, 2013-09-14</p>
+        <div class="commentary">
+    <h4>Kommentarer:</h4>
+    <p>
+    Video-taggen, riktigt bra och användbar!
+    </p> 
+    </div>
     
+    <footer>Skrivet av Tommy, 2013-09-14</footer>
+    </article>
+    
+    
+    <article>
     <h2>Vektorisk Bild</h2>
-    
-    <img id="Lejonunge" src="pics/lion.svg" alt="Bild på ett barn lejon" width="238" height="377">
     
     <p>För härligt att jobba med HTML. Här kan ni se ett verk gjort med SVG-Edit.</p>
     
-    <p>Skrivet av Tommy 2013-09-13</p>
+    <img id="Lejonunge" src="pics/lion.svg" alt="Bild på ett barn lejon" width="238" height="377">
     
+        <div class="commentary">
+    <h4>Kommentarer:</h4>
+    <p>
+    Vektorisk Bild, användbart men svårt!
+    </p> 
+    </div>
+    
+    
+    <footer>Skrivet av Tommy 2013-09-13</footer>
+    </article>
+    
+    <article>
     <h2>Hello World</h2>
     
     <p>På denna blogg så kommer jag skriva om laborationer jag kommer jobba med samt publicera material som jag har gjort.</p>
     
-    <p>Skrivet av Tommy, 2013-09-11</p>
     
+        <div class="commentary">
+    <h4>Kommentarer:</h4>
+    <p>
+    Laboration 1 klar!
+    </p> 
     </div>
+    
+    <footer>Skrivet av Tommy, 2013-09-11</footer>
+    </article>
+    
+    </main>
 
 
 
-    <div id="bottom">
-    © Tommy Nguyen 2013
-    </div>
+    
+    <!--Footer-->
+    <footer>© Tommy Nguyen 2013</footer>
     
     
     </div>

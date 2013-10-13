@@ -11,7 +11,7 @@
 	border: 1px solid #cecab9;
 }
 
-#top
+header
 {
 	text-align: right;
 	font-family: Verdana;
@@ -27,14 +27,14 @@
 	font-style: italic;
 }
 
-#navigation
+nav
 {
     padding: 0px;
     display: inline-block;
     height: 35px;
 }
 
-#navigation ul
+nav ul
 {
  
 	list-style: none;
@@ -49,14 +49,13 @@
 	margin-left: -30px;
 }
 
-#navigation ul li
+nav ul li
 {
     
     float: left;
 }
 
-
-#navigation ul li a
+nav ul li a
 {
     
     width: 100px;
@@ -131,13 +130,13 @@
 	background-position: 9px -282px;
 }
 
-#navigation .active
+nav .active
 {
    background-color: #eae7d2;
    color:#888076;
 }
 
-#navigation ul li a:hover
+nav ul li a:hover
 {
 	color: #eae7d2;
 	background-color: #9c9084;
@@ -147,13 +146,13 @@
 
 
 
-#content ul
+main ul
 {
     
     list-style: none;
 }
 
-#content
+main
 {
     list-style: none;
 	background: #eae7d2;
@@ -181,7 +180,7 @@
 
 
 
-#bottom
+footer
 {
     text-align: center;
     color: #FFF;
@@ -189,6 +188,38 @@
     font-style: italic;
     width: 600px;
     
+}
+
+article footer
+{
+    color: #797066;
+    font-style: italic;
+    font-size: 0.8em;
+    text-align: left;
+}
+
+.commentary {
+    display: block;
+    border: medium none;
+    margin-top:none;
+    background-color: rgb(215, 209, 202);
+    padding: 0px 0px 2px 5px;
+}
+
+.commentary h4 {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-family: "Palatino Linotype","Book Antiqua",Palatino,serif;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.commentary p {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-family: "Palatino Linotype","Book Antiqua",Palatino,serif;
+    font-style: italic;
+    margin-top: 0px;
 }
 
 a:link
@@ -212,19 +243,19 @@ a:visited
     
 }
 
-#content form textarea, #title, select
+main form textarea, #title, select
 {
     width: 300px;
     margin-bottom: 20px;
     resize: vertical;
 }
 
-#content form 
+main form 
 {
     width: 500px;
 }
 
-#content form label 
+main form label 
 {
     width: 140px;
     text-align: right;
@@ -262,7 +293,15 @@ th
 }
 
 
-
+#hcard-Tommy-Tri-Minh-Nguyen
+{
+    font-style: italic;
+    width: 100%;
+    color: black;
+    background-color: rgb(204, 204, 204);
+    border-style: solid;
+    border-width: 1px;
+}
 
 /* Text */
 

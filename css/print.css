@@ -1,12 +1,12 @@
 /* Dölj innehåll vid utskrift */
 
-#top, #navigation, #bottom
+header, nav, footer
 {
     
     display:none;
 }
     
-#navigation li a ul
+nav li a ul
 {
     display:none;
 }
@@ -61,7 +61,7 @@ border-bottom: none;
 
 /* Visa vid utskrift */
     
-#content 
+main 
 {
     width: 100%; margin: 0; float: none; 
     
@@ -102,7 +102,7 @@ th
 /* Annat */
 
 @media print{
-#content a:after
+main a:after
 {
 content: "(" attr(href) ")";
 }

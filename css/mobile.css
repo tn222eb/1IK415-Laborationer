@@ -1,8 +1,9 @@
-#content    		{
+main  		
+{
 max-width: 100% ;
 margin-top: 123px;
 overflow: hidden;
-					 }
+}
 
 #container 			
 {
@@ -10,7 +11,7 @@ max-width: 100%;
 height: auto; 
 }
 
-#navigation
+nav
 {
     margin-top: 10px;
     max-width: 100%;
@@ -18,26 +19,24 @@ height: auto;
 
 
 
-#navigation ul
+nav ul
 {
-
     max-width:100%;
-    
 }
 
-#navigation ul li
+nav ul li
 {
   
     max-width: 200px;
     float:none;
 }
 
-#top			
+header			
 {
 max-width: 100%;
 }
 
-#bottom
+footer
 {
     height: auto;
 max-width: 100%;
@@ -45,7 +44,7 @@ max-width: 100%;
 					
 					
 				
-				#content form label
+				main form label
 				{float:none;
 	text-align: left;}				
 					
