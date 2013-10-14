@@ -5,58 +5,95 @@ body
     background-color:#333;
 }
 
+container
+{
+    width: 100%;
+}
+
 a
 {
-     -o-transform: rotate(5deg);
-     -ms-transform: rotate(5deg);
-     -webkit-transform:rotate(5deg);
-     -moz-transform: rotate(5deg);
-      transform: rotate(5deg);
 
     -o-transition:1s;
     -ms-transition:1s;
     -webkit-transition:1s;
     -moz-transition:1s;
      transition:1s;
-     
+     margin-top:  20px;
+     margin-left: 40px;
+     position:relative;
      padding: 10px 10px 20px;
      background-color: white;
      float: left;
      display:block;
      box-shadow: 3px 15px 3px #111111;
+     text-decoration: none;
+     color: black;
 }
+
 
 a:nth-child(1)
 {
+    -o-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -webkit-transform:rotate(-5deg);
+    -moz-transform: rotate(-5deg);
     transform: rotate(-5deg);
 }
 
 a:nth-child(2)
 {
+    -o-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    -webkit-transform:rotate(10deg);
+    -moz-transform: rotate(10deg);
     transform: rotate(10deg);
 }
 
 a:nth-child(3)
 {
-    transform: rotate(5deg);
+    -o-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    -webkit-transform:rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    transform: rotate(-15deg);
 }
 
 a:nth-child(4)
 {
+    -o-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -webkit-transform:rotate(15deg);
+    -moz-transform: rotate(15deg);
     transform: rotate(15deg);
+    font-size:150%;
 }
 
 a:nth-child(5)
 {
+    -o-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -webkit-transform:rotate(-5deg);
+    -moz-transform: rotate(-5deg);
     transform: rotate(-5deg);
 }
 
 a:nth-child(6)
 {
-    transform: rotate(5deg);
+    -o-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -webkit-transform:rotate(15deg);
+    -moz-transform: rotate(15deg);
+    transform: rotate(15deg);
+    font-size:150%;
 }
 
-a:nth-child(7)
+a:hover, a:focus
 {
-    transform: rotate(10deg);
+    -o-transform:scale(1.2), rotate(0deg);
+    -ms-transform:scale(1.2), rotate(0deg);
+    -webkit-transform:scale(1.2), rotate(0deg);
+    -moz-transform:scale(1.2), rotate(0deg);
+     transform:scale(1.2) rotate(0deg);
+     z-index:50;
+     box-shadow:10px 10px 10px 10px #111111;
 }
