@@ -85,14 +85,14 @@ nav ul li a
 {
     background-image: url(pics/sprite.png);
 	background-repeat: no-repeat;
-	background-position: 10px 5px;
+	background-position: 10px 6px;
 }
 
 #lab-icon
 {
     	background-image: url(pics/sprite.png);
 	background-repeat: no-repeat;
-	background-position: 4px -138px;
+	background-position: 4px -139px;
 }
 
 #lab-icon:hover
@@ -132,7 +132,7 @@ nav ul li a
 
 nav .active
 {
-   background-color: #eae7d2;
+   background-color: gray;
    color:#888076;
 }
 
@@ -227,16 +227,21 @@ a:link
     color: #797066;
 }
 
+nav a:link
+{
+    color: #eae7d2;
+}
+
+nav a:visited
+{
+    color: #eae7d2;
+}
+
 a:visited
 {
     color: #797066;
 }
 
- a:hover 
- {
- color: black;
- }
- 
  #textarea 
 {
     height: 100px;
